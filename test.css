@@ -1,0 +1,40 @@
+body {
+  color: black;
+  
+  background-image: url("fon.png");
+}
+
+h1 {
+ font-family: Arial,sans-serif;
+ font-size: 40px;
+ font-style: italic;
+ color: blue;
+ 
+}
+
+h2 {
+ font-family: Arial,sans-serif;
+ font-size: 35px;
+ font-style: italic;
+ color: blue;
+ 
+}
+
+p {
+ font-family: Arial,sans-serif;
+ font-size: 25px;
+ font-style: italic;
+ 
+}
+
+select{
+  font-size:26px;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: blue;
+}
+
+a{
+  font-size:26px;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: blue;
+}
