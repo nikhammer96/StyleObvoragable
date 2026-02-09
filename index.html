@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Мой сайт</title>
+<link rel="stylesheet" href="test.css">
+
+</head>
+<body>
+<table border="1">
+<center><table width="100%" height="100%" border="0">
+
+<tr height="50">
+<td colspan="3">
+<center>
+<h1> StyleObvoragable </h1> </center>
+</td>
+</tr>
+                                                            
+<tr style="vertical-align:top">
+<td width="30%"><h2>Статьи</h2>
+<td align='center' >
+<h2>
+Твой образ
+</h2>
+</td>
+</tr>
+
+<tr> <td valign="top">
+<ul>
+<li><a href="o_style.html">О стилях</a></li>
+<li><a href="https://habr.com/ru/companies/ruvds/articles/553582/?ysclid=mktqqh2ybd770117272">О цветах</a></li>
+</ul>
+</td>
+<td  rowspan="5"  valign="top"><center><img id="preview" height="800px" align="top"  ></td>
+</tr>
+
+
+<tr> <td>
+<select id="preview1">
+<option selected disabled>Выбери стиль</option>
+<option value="d_">Деловой</option>
+<option value="v_">Вечерний</option>
+</select>
+</td>
+
+
+
+</tr>
+
+<tr>
+<td>
+<select id="preview2">
+<option selected disabled>Выбери низ</option>
+<option value="br_">Брюки</option>
+<option value="u_">Юбка</option>
+</select>
+<br><br>
+<select id="preview3">
+<option selected disabled>Выбери цвет</option>
+<option value="t_">Темный</option>
+<option value="s_">Светлый</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<select id="preview4">
+<option selected disabled>Выбери верх</option>
+<option value="bl_">Блузка</option>
+<option value="dg_">Джемпер</option>
+</select>
+<br><br>
+<select id="preview5" onchange="document.getElementById('preview').src ='fr_2/'+
+       document.getElementById('preview1').value +
+       document.getElementById('preview2').value +
+       document.getElementById('preview3').value +
+       document.getElementById('preview4').value +
+       document.getElementById('preview5').value + '.jpeg'">
+<option selected disabled>Выбери цвет</option>
+<option value="t">Темный</option>
+<option value="s">Светлый</option>
+</select>
+</td>
+</tr>
+
+
+<tr>
+<td valign="top">
+<p>
+Для выбора следующего образа нажми на кнопку
+</p>
+<a href="start.htm"> сброс </a>
+
+</tr>
+
+</body>
+
